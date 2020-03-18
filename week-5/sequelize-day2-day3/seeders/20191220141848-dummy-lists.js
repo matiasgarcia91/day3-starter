@@ -7,19 +7,19 @@ module.exports = {
       [
         {
           name: "Matias Work List",
-          UserId: 3,
+          UserId: 1,
           createdAt: new Date(),
           updatedAt: new Date()
         },
         {
           name: "Matias Personal List",
-          UserId: 3,
+          UserId: 1,
           createdAt: new Date(),
           updatedAt: new Date()
         },
         {
           name: "Leo's futbol list",
-          UserId: 4,
+          UserId: 1,
           createdAt: new Date(),
           updatedAt: new Date()
         }
