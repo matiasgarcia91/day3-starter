@@ -1,5 +1,5 @@
-const User = require("./models").User;
-const TodoItem = require("./models").TodoItem;
+const User = require("./models").user;
+const TodoItem = require("./models").todoItem;
 
 async function getUsers() {
   const allUsers = await User.findAll();
