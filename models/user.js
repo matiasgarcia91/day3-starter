@@ -9,6 +9,8 @@ module.exports = (sequelize, DataTypes) => {
     },
     {}
   );
-  user.associate = function(models) {};
+  user.associate = function(models) {
+    user.hasMany(models.todoList);
+  };
   return user;
 };
